@@ -9,6 +9,7 @@ import Welcome from './step03_component/Welcom';
 import Comment from './step03_component/Comment';
 import CommentList from './step03_component/CommentList';
 import NotificationList from './step04_state/NotificationList';
+import Book from './step01_jsx/Book';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Clock (render)
@@ -27,8 +28,10 @@ root.render(
    {/*  <Welcome name="Sara" />
     <Welcome name="Cahal" />
     <Welcome name="Edite" /> */}
+    {/* <Book /> */}
     {/* <CommentList /> */}
-    <NotificationList />
+    <NotificationList /> 
+    
   </React.StrictMode>
 );
 
