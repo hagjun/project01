@@ -1,4 +1,3 @@
-
 import { Box, Button } from "@mui/material";
 import React from "react";
 
@@ -10,13 +9,13 @@ class Count extends React.Component{
     increment(){
         // 변경
         this.setState({
-            cnt : this.state.cnt + 1
+            cnt : this.state.cnt + 1 // 하나씩 증가
         })
     }
     decrement(){
         // 변경
         this.setState({
-            cnt : this.state.cnt - 1
+            cnt : this.state.cnt - 1 // 하나씩 감소
         })
     }
     render(){

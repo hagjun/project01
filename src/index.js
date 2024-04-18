@@ -3,25 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Libaray from './step01_jsx/Libaray';
-import Clock from './step02_element/Clock';
-import Welcome from './step03_component/Welcom';
-import Comment from './step03_component/Comment';
-import CommentList from './step03_component/CommentList';
-import NotificationList from './step04_state/NotificationList';
-import Book from './step01_jsx/Book';
-import Count from './step04_state/Count';
-import Customer from './step05_props/Customer';
-import BookList from './step05_props/BookList';
-import Books from './static-data/Books';
-import Counter from './step06_hook/Counter';
-import Counter2 from './step06_hook/Counter2';
-import Counter3 from './step06_hook/Counter3';
-import Counter4 from './step06_hook/Counter4';
-import SmartHome from './step06_hook/SmartHome';
-import SmartHome2 from './step06_hook/SmartHome2';
-import TextInput from './step06_hook/TextInput';
-import VideoExam from './step06_hook/VideoExam';
+import Ex01 from './step09_list/Ex01';
+import Ex02 from './step09_list/Ex02';
+import NameForm from './step10_form/NameForm';
+import SelectForm from './step10_form/SelectForm';
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 // Clock (render)
@@ -57,7 +44,26 @@ root.render(
     {/* <SmartHome /> */}
     {/* <SmartHome2 /> */}
     {/* <TextInput /> */}
-    <VideoExam />
+    {/* <VideoExam /> */}
+    {/* <Sample01 /> */}
+    {/* <Sample02 /> */}
+    {/* <Sample03 /> */}
+    {/* <Sample04 /> */}
+    {/* <Sample05 /> */}
+    {/* <Ex01 isLoggedIn={true} /> */}
+    {/* <Ex01 isLoggedIn=""/>      =>  false  */}
+    {/* <Ex01 isLoggedIn="내용"/>   => true */}
+    {/* <Ex01 isLoggedIn="" /> */}
+    {/* <Ex03 /> */}
+    {/* <Ex04 msg={[]}/>   msg.length > 0 : 0 가 되어서 결과값이 안나온다. */}
+    {/* <Ex04 msg={[1,2]}/> */}
+    {/* <Ex05 /> */}
+    {/* <Ex06_In_out /> */}
+    {/* <Ex07 /> */}
+    {/* <Ex01 arr={[1,2,3,4,5]}/> */}
+    {/* <Ex02 /> */}
+    {/* <NameForm /> */}
+    <SelectForm />
   </React.StrictMode>
 );
 

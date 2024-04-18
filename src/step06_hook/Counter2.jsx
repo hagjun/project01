@@ -16,10 +16,10 @@ function Counter2(props) {
     return(/* 함수 호출 */
         <div>
             <div>{count2}</div>
-            <button onClick={countUp}>증가</button>
+                <button onClick={countUp}>증가</button>
             <hr />
             <h2>{name}</h2>
-            <button onClick={changeName}>이름변경</button>
+                <button onClick={changeName}>이름변경</button>
         </div>
     )
 }
